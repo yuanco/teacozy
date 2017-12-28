@@ -4,22 +4,39 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  border: 1px solid seashell;
 }
 
-h2,
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
 h4 {
+  font-size: 18px;
   margin: 10px;
+}
+
+h5 {
+  font-size: 16px;
+  margin: 15px;
 }
 
 .header {
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  opacity: 0.9;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
 
 .logo {
@@ -33,6 +50,7 @@ h4 {
 }
 
 .nav {
+  margin-right: 10px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -45,6 +63,7 @@ h4 {
 }
 
 .content {
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,8 +82,8 @@ h4 {
 }
 
 .mission-text {
-  border: 1px solid white;
   background-color: black;
+  opacity: 0.85;
   color: seashell;
   width: 100%;
   display: flex;
@@ -74,25 +93,23 @@ h4 {
 }
 
 .month {
+  width: 1000px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.tea-container {
-  border: 1px solid white;
-  width: 1000px;
+.tea-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
-  justify-content: stretch;
   align-items: center;
-
 }
 
 .tea {
+  margin: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,14 +123,15 @@ h4 {
 }
 
 .tea-name {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .location {
   height: 500px;
   width: 1200px;
+  margin-top: 50px;
   background-image: url("../img/img-locations-background.jpg");
-  background-size: cover;
+  background-size: fill;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -131,6 +149,7 @@ h4 {
 
 .box {
   background-color: black;
+  opacity: 0.85;
   height: 300px;
   width: 300px;
   margin-left: 20px;
