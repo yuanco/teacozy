@@ -106,16 +106,18 @@ h5 {
 .tea-row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 .tea {
-  margin: 25px;
+  margin: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: space-between;
 }
 
 .tea-pic {
