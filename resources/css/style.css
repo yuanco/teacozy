@@ -8,15 +8,17 @@ body {
 
 h2 {
   font-size: 28px;
+  margin: 5px;
 }
 
 h3 {
   font-size: 22px;
+  margin: 15px;
 }
 
 h4 {
   font-size: 18px;
-  margin: 10px;
+  margin: 15px;
 }
 
 h5 {
@@ -129,10 +131,11 @@ h5 {
 .location {
   height: 500px;
   width: 1200px;
-  margin-top: 50px;
+  margin-top: 25px;
   background-image: url("../img/img-locations-background.jpg");
   background-size: fill;
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -165,6 +168,13 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.footer {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .copyright {
